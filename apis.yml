@@ -1,8 +1,27 @@
 aid: zeta
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/zeta.png
 name: Zeta
-description: 'Zeta is a company surfaced as a portfolio company of softbank-vision-fund and added to the
-  API Evangelist network as a stub for enrichment. Sector: fintech. This profile is a lead awaiting the
-  enrichment pipeline.'
+description: >-
+  Zeta is a next-generation banking and payment card processing platform for banks and financial
+  institutions, offering a cloud-native omnistack to launch and manage credit, debit, prepaid, BNPL,
+  and fleet card programs alongside loans and deposits. Its product suite spans Tachyon (core
+  processing and real-time APIs and events), Neutrino (digital app experiences), Elena
+  (conversational AI), Saturn (servicing and back-office operations), Luminos (engagement and
+  rewards), and Zeus (data and analytics). Founded by Bhavin Turakhia and Ramki Gaddipati and backed
+  by SoftBank Vision Fund, Zeta processes 25+ million cards across seven countries for institutions
+  including HDFC Bank, Pluxee, and Sparrow. Zeta's platform is delivered to enterprise banking
+  partners; its APIs are partner-gated rather than published on a public developer portal.
 url: https://raw.githubusercontent.com/api-evangelist/zeta/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,13 +31,39 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
 - Fintech
+- Payments
+- Card Processing
+- Banking
+- Cards
+- Card Issuing
+- Financial Services
 apis: []
+common:
+- type: DomainSecurity
+  url: security/zeta-domain-security.yml
+- type: Website
+  url: https://www.zeta.tech/us/
+- type: Blog
+  url: https://www.zeta.tech/us/resources/blog/
+- type: Support
+  url: https://www.zeta.tech/us/company/contact-us/
+- type: PrivacyPolicy
+  url: https://www.zeta.tech/us/privacy-policy/
+- type: TrustCenter
+  url: https://www.zeta.tech/us/resources/trust-center/
+- type: Compliance
+  url: https://www.zeta.tech/us/resources/trust-center/
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-21'
+  status: enriched
+  artifacts_added: 2
+  pass: local-v1

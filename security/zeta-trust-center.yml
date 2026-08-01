@@ -1,0 +1,28 @@
+generated: '2026-07-21'
+method: searched
+source: https://www.zeta.tech/us/resources/trust-center/
+url: https://www.zeta.tech/us/resources/trust-center/
+certifications:
+- SOC 1 Type 2
+- SOC 2 Type 2
+- SOC 3
+- ISO/IEC 27001:2022
+- ISO/IEC 27701:2019
+- ISO 22301:2019
+- PCI DSS 4.0.1
+- PCI 3DS 1.0
+regulatory:
+- GDPR
+- CPRA
+- India DPDP Act 2022
+evidence:
+- source: https://www.zeta.tech/us/resources/trust-center/
+  keywords:
+  - soc 2
+  - iso 27001
+  - pci dss
+  - trust center
+notes: >-
+  Certifications are assessed by qualified independent auditors (Bureau Veritas, Control Case, SISA)
+  and result in a certification, attestation of compliance, or audit report. Zeta publishes no
+  /.well-known/security.txt and no public bug-bounty or vulnerability-disclosure program.
