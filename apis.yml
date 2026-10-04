@@ -51,7 +51,7 @@ tags:
 - Banking
 - Cards
 - Card Issuing
-- Financial-Services
+- Financial Services
 tags_raw:
 - Company
 - Fintech
@@ -61,6 +61,7 @@ tags_raw:
 - Cards
 - Card Issuing
 - Financial Services
+- Financial-Services
 apis: []
 common:
 - type: DomainSecurity
